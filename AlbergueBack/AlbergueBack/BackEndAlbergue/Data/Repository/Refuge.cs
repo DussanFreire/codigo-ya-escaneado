@@ -402,11 +402,11 @@ namespace BackEndAlbergue.Data.Repository
             }
             return notices;
         }
-        public NoticeEntity GetNotice(int noticeId)
+        public NoticeEntity GetNotice(int NoticeId)
         {
             NoticeEntity notice = new NoticeEntity();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM notice where id = {noticeId}";
+            string query = $"SELECT * FROM notice where id = {NoticeId}";
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
@@ -435,13 +435,13 @@ namespace BackEndAlbergue.Data.Repository
             return noticeEntity;
         }
 
-        public bool DeleteNotice(int noticeId)
+        public bool DeleteNotice(int NoticeId)
         {
             int retorno;
             bool res = false;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
-            string query = $"Delete From notice where id ={ noticeId }";
+            string query = $"Delete From notice where id ={ NoticeId }";
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             retorno = commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
