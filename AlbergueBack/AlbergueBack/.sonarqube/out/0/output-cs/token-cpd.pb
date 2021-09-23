@@ -1,4 +1,4 @@
-ßA
+õA
 œD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.cs
 	namespace 	
 BackEndAlbergue
@@ -24,10 +24,11 @@
 :  !
 ControllerBase" 0
 { 
-private 
-IUserService 
-userService (
-;( )
+private 
+readonly 
+IUserService %
+userService& 1
+;1 2
 public 
 AuthController 
 ( 

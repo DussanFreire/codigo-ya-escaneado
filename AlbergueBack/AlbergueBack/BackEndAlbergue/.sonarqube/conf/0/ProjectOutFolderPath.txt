@@ -1,1 +1,1 @@
-D:\2021-Semestre 2\Gestion de Calidad de Sist\Practica 1\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\out\0
+D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\out\0

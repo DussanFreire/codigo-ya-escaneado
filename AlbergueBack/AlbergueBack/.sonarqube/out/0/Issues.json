@@ -243,6 +243,27 @@
           }
         },
         {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Program.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3925",
           "level": "warning",
           "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
@@ -343,6 +364,27 @@
         {
           "ruleId": "S2933",
           "level": "warning",
+          "message": "Make '_noticeService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Controllers/NoticeController.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 32,
+                  "endLine": 19,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
           "message": "Make '_petService' 'readonly'.",
           "locations": [
             {
@@ -364,16 +406,37 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'userService' 'readonly'.",
+          "message": "Make '_refugeRepository' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Controllers/AuthController.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/NoticeService.cs",
                 "region": {
-                  "startLine": 17,
-                  "startColumn": 30,
-                  "endLine": 17,
-                  "endColumn": 41
+                  "startLine": 15,
+                  "startColumn": 25,
+                  "endLine": 15,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_mapper' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/NoticeService.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 25,
+                  "endLine": 16,
+                  "endColumn": 32
                 }
               }
             }
@@ -406,53 +469,11 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make '_noticeService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Controllers/NoticeController.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 32,
-                  "endLine": 19,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Program.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 18,
-                  "endLine": 12,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
           "message": "Make '_refugeRepository' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/ProductService.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 25,
@@ -473,7 +494,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/ProductService.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
                 "region": {
                   "startLine": 16,
                   "startColumn": 25,
@@ -494,7 +515,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/NoticeService.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/ProductService.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 25,
@@ -515,7 +536,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/NoticeService.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/ProductService.cs",
                 "region": {
                   "startLine": 16,
                   "startColumn": 25,
@@ -542,48 +563,6 @@
                   "startColumn": 9,
                   "endLine": 17,
                   "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_refugeRepository' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 25,
-                  "endLine": 15,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make '_mapper' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 25,
-                  "endLine": 16,
-                  "endColumn": 32
                 }
               }
             }
@@ -870,27 +849,6 @@
           }
         },
         {
-          "ruleId": "S1185",
-          "level": "warning",
-          "message": "Remove this method 'OnConfiguring' to simply inherit its behavior.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/ApplicationDbContext.cs",
-                "region": {
-                  "startLine": 23,
-                  "startColumn": 9,
-                  "endLine": 26,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1117",
           "level": "warning",
           "message": "Rename 'query' which hides the field with the same name.",
@@ -912,18 +870,18 @@
           }
         },
         {
-          "ruleId": "S1481",
+          "ruleId": "S1185",
           "level": "warning",
-          "message": "Remove the unused local variable 'url'.",
+          "message": "Remove this method 'OnConfiguring' to simply inherit its behavior.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Controllers/NoticeController.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/ApplicationDbContext.cs",
                 "region": {
-                  "startLine": 63,
-                  "startColumn": 21,
-                  "endLine": 63,
-                  "endColumn": 24
+                  "startLine": 23,
+                  "startColumn": 9,
+                  "endLine": 26,
+                  "endColumn": 10
                 }
               }
             }
@@ -1012,18 +970,18 @@
           }
         },
         {
-          "ruleId": "S1117",
+          "ruleId": "S5122",
           "level": "warning",
-          "message": "Rename 'query' which hides the field with the same name.",
+          "message": "Make sure this permissive CORS policy is safe here.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Startup.cs",
                 "region": {
-                  "startLine": 146,
-                  "startColumn": 20,
-                  "endLine": 146,
-                  "endColumn": 25
+                  "startLine": 102,
+                  "startColumn": 38,
+                  "endLine": 102,
+                  "endColumn": 62
                 }
               }
             }
@@ -1078,9 +1036,9 @@
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 191,
+                  "startLine": 146,
                   "startColumn": 20,
-                  "endLine": 191,
+                  "endLine": 146,
                   "endColumn": 25
                 }
               }
@@ -1112,6 +1070,27 @@
           }
         },
         {
+          "ruleId": "S1117",
+          "level": "warning",
+          "message": "Rename 'query' which hides the field with the same name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 20,
+                  "endLine": 191,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1481",
           "level": "warning",
           "message": "Remove the unused local variable 'url'.",
@@ -1133,18 +1112,52 @@
           }
         },
         {
-          "ruleId": "S5122",
+          "ruleId": "S2583",
           "level": "warning",
-          "message": "Make sure this permissive CORS policy is safe here.",
+          "message": "Change this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Startup.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/UserService.cs",
                 "region": {
-                  "startLine": 102,
-                  "startColumn": 38,
-                  "endLine": 102,
-                  "endColumn": 62
+                  "startLine": 69,
+                  "startColumn": 17,
+                  "endLine": 69,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/UserService.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 13,
+                  "endLine": 76,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'url'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Controllers/NoticeController.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 21,
+                  "endLine": 63,
+                  "endColumn": 24
                 }
               }
             }
@@ -1208,90 +1221,6 @@
                   "startColumn": 25,
                   "endLine": 270,
                   "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 307,
-                  "startColumn": 29,
-                  "endLine": 307,
-                  "endColumn": 57
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 319,
-                  "startColumn": 33,
-                  "endLine": 319,
-                  "endColumn": 61
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 338,
-                  "startColumn": 33,
-                  "endLine": 338,
-                  "endColumn": 60
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 330,
-                  "startColumn": 33,
-                  "endLine": 330,
-                  "endColumn": 61
                 }
               }
             }
@@ -1401,127 +1330,6 @@
           }
         },
         {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 306,
-                  "startColumn": 45,
-                  "endLine": 306,
-                  "endColumn": 148
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 318,
-                  "startColumn": 49,
-                  "endLine": 318,
-                  "endColumn": 157
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 329,
-                  "startColumn": 49,
-                  "endLine": 329,
-                  "endColumn": 177
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 337,
-                  "startColumn": 48,
-                  "endLine": 337,
-                  "endColumn": 171
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 349,
-                  "startColumn": 44,
-                  "endLine": 349,
-                  "endColumn": 87
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 348,
-                  "startColumn": 20,
-                  "endLine": 348,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "SQL Query is dynamically formatted and assigned to query."
-            }
-          }
-        },
-        {
           "ruleId": "S1117",
           "level": "warning",
           "message": "Rename 'query' which hides the field with the same name.",
@@ -1543,90 +1351,6 @@
           }
         },
         {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'petId' to 'PetId' to match the interface declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 285,
-                  "startColumn": 35,
-                  "endLine": 285,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1117",
-          "level": "warning",
-          "message": "Rename 'query' which hides the field with the same name.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 348,
-                  "startColumn": 20,
-                  "endLine": 348,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 378,
-                  "startColumn": 21,
-                  "endLine": 378,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 377,
-                  "startColumn": 36,
-                  "endLine": 377,
-                  "endColumn": 432
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1481",
           "level": "warning",
           "message": "Remove the unused local variable 'isAdopted'.",
@@ -1639,40 +1363,6 @@
                   "startColumn": 17,
                   "endLine": 236,
                   "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2583",
-          "level": "warning",
-          "message": "Change this condition so that it does not always evaluate to 'false'; some subsequent code is never executed.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/UserService.cs",
-                "region": {
-                  "startLine": 69,
-                  "startColumn": 17,
-                  "endLine": 69,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/UserService.cs",
-                "region": {
-                  "startLine": 70,
-                  "startColumn": 13,
-                  "endLine": 76,
-                  "endColumn": 14
                 }
               }
             }
@@ -1724,18 +1414,228 @@
           }
         },
         {
-          "ruleId": "S1117",
+          "ruleId": "S1481",
           "level": "warning",
-          "message": "Rename 'query' which hides the field with the same name.",
+          "message": "Remove the unused local variable 'itemPetShopToDelete'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/ProductService.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 17,
+                  "endLine": 51,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 386,
-                  "startColumn": 20,
-                  "endLine": 386,
-                  "endColumn": 25
+                  "startLine": 307,
+                  "startColumn": 29,
+                  "endLine": 307,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 33,
+                  "endLine": 319,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 338,
+                  "startColumn": 33,
+                  "endLine": 338,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 33,
+                  "endLine": 330,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 378,
+                  "startColumn": 21,
+                  "endLine": 378,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 21,
+                  "endLine": 434,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 306,
+                  "startColumn": 45,
+                  "endLine": 306,
+                  "endColumn": 148
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 318,
+                  "startColumn": 49,
+                  "endLine": 318,
+                  "endColumn": 157
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 44,
+                  "endLine": 433,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 329,
+                  "startColumn": 49,
+                  "endLine": 329,
+                  "endColumn": 177
                 }
               }
             }
@@ -1782,60 +1682,18 @@
           }
         },
         {
-          "ruleId": "S927",
+          "ruleId": "S2077",
           "level": "warning",
-          "message": "Rename parameter 'noticeId' to 'NoticeId' to match the interface declaration.",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 406,
-                  "startColumn": 43,
-                  "endLine": 406,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1117",
-          "level": "warning",
-          "message": "Rename 'query' which hides the field with the same name.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 410,
-                  "startColumn": 20,
-                  "endLine": 410,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 434,
-                  "startColumn": 21,
-                  "endLine": 434,
-                  "endColumn": 56
+                  "startLine": 337,
+                  "startColumn": 48,
+                  "endLine": 337,
+                  "endColumn": 171
                 }
               }
             }
@@ -1874,10 +1732,68 @@
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 433,
+                  "startLine": 349,
                   "startColumn": 44,
-                  "endLine": 433,
-                  "endColumn": 240
+                  "endLine": 349,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 348,
+                  "startColumn": 20,
+                  "endLine": 348,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 377,
+                  "startColumn": 36,
+                  "endLine": 377,
+                  "endColumn": 432
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'noticeId' to 'NoticeId' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 406,
+                  "startColumn": 43,
+                  "endLine": 406,
+                  "endColumn": 51
                 }
               }
             }
@@ -1924,6 +1840,27 @@
           }
         },
         {
+          "ruleId": "S1117",
+          "level": "warning",
+          "message": "Rename 'query' which hides the field with the same name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 410,
+                  "startColumn": 20,
+                  "endLine": 410,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S927",
           "level": "warning",
           "message": "Rename parameter 'noticeId' to 'NoticeId' to match the interface declaration.",
@@ -1936,6 +1873,27 @@
                   "startColumn": 38,
                   "endLine": 439,
                   "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1117",
+          "level": "warning",
+          "message": "Rename 'query' which hides the field with the same name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 386,
+                  "startColumn": 20,
+                  "endLine": 386,
+                  "endColumn": 25
                 }
               }
             }
@@ -1966,81 +1924,18 @@
           }
         },
         {
-          "ruleId": "S1481",
-          "level": "warning",
-          "message": "Remove the unused local variable 'itemPetShopToDelete'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/ProductService.cs",
-                "region": {
-                  "startLine": 51,
-                  "startColumn": 17,
-                  "endLine": 51,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 466,
-                  "startColumn": 21,
-                  "endLine": 466,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S927",
           "level": "warning",
           "message": "Rename parameter 'petId' to 'PetId' to match the interface declaration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
-                "region": {
-                  "startLine": 115,
-                  "startColumn": 35,
-                  "endLine": 115,
-                  "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 465,
-                  "startColumn": 36,
-                  "endLine": 465,
-                  "endColumn": 260
+                  "startLine": 285,
+                  "startColumn": 35,
+                  "endLine": 285,
+                  "endColumn": 40
                 }
               }
             }
@@ -2071,18 +1966,18 @@
           }
         },
         {
-          "ruleId": "S1481",
+          "ruleId": "S1854",
           "level": "warning",
-          "message": "Remove the unused local variable 'breedToDelete'.",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 117,
-                  "startColumn": 17,
-                  "endLine": 117,
-                  "endColumn": 30
+                  "startLine": 466,
+                  "startColumn": 21,
+                  "endLine": 466,
+                  "endColumn": 48
                 }
               }
             }
@@ -2100,10 +1995,52 @@
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 475,
+                  "startLine": 348,
                   "startColumn": 20,
-                  "endLine": 475,
+                  "endLine": 348,
                   "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 36,
+                  "endLine": 465,
+                  "endColumn": 260
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'petId' to 'PetId' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 35,
+                  "endLine": 115,
+                  "endColumn": 40
                 }
               }
             }
@@ -2176,43 +2113,6 @@
           }
         },
         {
-          "ruleId": "S2077",
-          "level": "warning",
-          "message": "Make sure using a dynamically formatted SQL query is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 504,
-                  "startColumn": 44,
-                  "endLine": 504,
-                  "endColumn": 87
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 503,
-                  "startColumn": 20,
-                  "endLine": 503,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "SQL Query is dynamically formatted and assigned to query."
-            }
-          }
-        },
-        {
           "ruleId": "S1117",
           "level": "warning",
           "message": "Rename 'query' which hides the field with the same name.",
@@ -2221,9 +2121,9 @@
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 503,
+                  "startLine": 475,
                   "startColumn": 20,
-                  "endLine": 503,
+                  "endLine": 475,
                   "endColumn": 25
                 }
               }
@@ -2234,39 +2134,18 @@
           }
         },
         {
-          "ruleId": "S1854",
+          "ruleId": "S1481",
           "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "message": "Remove the unused local variable 'breedToDelete'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Services/PetServices.cs",
                 "region": {
-                  "startLine": 531,
-                  "startColumn": 21,
-                  "endLine": 531,
-                  "endColumn": 56
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'retorno'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 566,
-                  "startColumn": 21,
-                  "endLine": 566,
-                  "endColumn": 48
+                  "startLine": 117,
+                  "startColumn": 17,
+                  "endLine": 117,
+                  "endColumn": 30
                 }
               }
             }
@@ -2313,6 +2192,48 @@
           }
         },
         {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 531,
+                  "startColumn": 21,
+                  "endLine": 531,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1117",
+          "level": "warning",
+          "message": "Rename 'query' which hides the field with the same name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 542,
+                  "startColumn": 20,
+                  "endLine": 542,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2077",
           "level": "warning",
           "message": "Make sure using a dynamically formatted SQL query is safe here.",
@@ -2325,6 +2246,85 @@
                   "startColumn": 44,
                   "endLine": 530,
                   "endColumn": 351
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Make sure using a dynamically formatted SQL query is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 504,
+                  "startColumn": 44,
+                  "endLine": 504,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 20,
+                  "endLine": 503,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'petShopEntity' to 'productEntity' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 525,
+                  "startColumn": 58,
+                  "endLine": 525,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'retorno'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
+                "region": {
+                  "startLine": 566,
+                  "startColumn": 21,
+                  "endLine": 566,
+                  "endColumn": 48
                 }
               }
             }
@@ -2355,27 +2355,6 @@
           }
         },
         {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'petShopEntity' to 'productEntity' to match the interface declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
-                "region": {
-                  "startLine": 525,
-                  "startColumn": 58,
-                  "endLine": 525,
-                  "endColumn": 71
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1117",
           "level": "warning",
           "message": "Rename 'query' which hides the field with the same name.",
@@ -2384,9 +2363,9 @@
               "resultFile": {
                 "uri": "file:///D:/Juslan/UNIVERSIDAD/8%20Semestre/4.%20Gestion%20de%20Calidad/Practicas/codigo-ya-escaneado/AlbergueBack/AlbergueBack/BackEndAlbergue/Data/Repository/Refuge.cs",
                 "region": {
-                  "startLine": 542,
+                  "startLine": 503,
                   "startColumn": 20,
-                  "endLine": 542,
+                  "endLine": 503,
                   "endColumn": 25
                 }
               }

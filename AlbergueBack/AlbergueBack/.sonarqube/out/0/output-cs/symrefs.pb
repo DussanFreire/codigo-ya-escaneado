@@ -2,7 +2,7 @@
 œD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.cs
 
  R
- ( !!# .55# .JJ# .__# .uu &
+& 1 !!# .55# .JJ# .__# .uu &
 ‹‹  +
 
  

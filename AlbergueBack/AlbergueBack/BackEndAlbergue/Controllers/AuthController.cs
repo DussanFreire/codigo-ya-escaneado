@@ -14,7 +14,7 @@ namespace BackEndAlbergue.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private IUserService userService;
+        private readonly IUserService userService;
 
         public AuthController(IUserService userService)
         {
