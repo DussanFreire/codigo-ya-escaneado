@@ -1,53 +1,52 @@
-﻿D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\NoticeController.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\PetController.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\ProductController.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\ApplicationDbContext.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\AutoMapperProfile.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\NoticeEntity.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\PetEntity.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\ProductEntity.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\IRefuge.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\Refuge.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\BadRequestException.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\NotFoundException.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.Designer.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.Designer.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.Designer.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.Designer.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.Designer.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\ApplicationDbContextModelSnapshot.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateRoleViewModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateUserRoleViewModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\LoginModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\RegisterViewModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserManagerResponse.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\NoticeModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModelImpostor.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\ProductModel.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Program.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\INoticeService.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IPetServices.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IProductService.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IUserService.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\NoticeService.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\PetServices.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\ProductService.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\UserService.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Startup.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.AssemblyInfo.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.MvcApplicationPartsAssemblyInfo.cs
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\appsettings.Development.json
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\appsettings.json
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Dockerfile
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Properties\launchSettings.json
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\.dockerignore
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\apphost.exe
+﻿C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\NoticeController.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\PetController.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\ProductController.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\ApplicationDbContext.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\AutoMapperProfile.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\NoticeEntity.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\PetEntity.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\ProductEntity.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\IRefuge.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\Refuge.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\BadRequestException.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\NotFoundException.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.Designer.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.Designer.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.Designer.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.Designer.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.Designer.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateRoleViewModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateUserRoleViewModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\LoginModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\RegisterViewModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserManagerResponse.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\NoticeModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModelImpostor.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\ProductModel.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Program.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\INoticeService.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IPetServices.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IProductService.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IUserService.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\NoticeService.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\PetServices.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\ProductService.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\UserService.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Startup.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.AssemblyInfo.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\appsettings.Development.json
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\appsettings.json
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Dockerfile
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Properties\launchSettings.json
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\.dockerignore

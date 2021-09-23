@@ -1,48 +1,48 @@
-¶
-úD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.csutf-8®
-ûD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\NoticeController.csutf-8•
-õD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\PetController.csutf-8©
-üD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\ProductController.csutf-8•
-õD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\ApplicationDbContext.csutf-8¢
-òD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\AutoMapperProfile.csutf-8¶
-úD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\NoticeEntity.csutf-8£
-ôD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\PetEntity.csutf-8ß
-ùD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\ProductEntity.csutf-8£
-ôD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\IRefuge.csutf-8¢
-òD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\Refuge.csutf-8™
-†D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\BadRequestException.csutf-8®
-ûD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\NotFoundException.csutf-8™
-†D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.csutf-8µ
-©D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.Designer.csutf-8≥
-©D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.csutf-8æ
-≤D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.Designer.csutf-8≤
-®D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.csutf-8Ω
-±D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.Designer.csutf-8±
-ßD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.csutf-8º
-∞D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.Designer.csutf-8±
-ßD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.csutf-8º
-∞D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.Designer.csutf-8∫
-ÆD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\ApplicationDbContextModelSnapshot.csutf-8¨
-¢D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateRoleViewModel.csutf-8∞
-¶D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateUserRoleViewModel.csutf-8£
-ôD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\LoginModel.csutf-8™
-†D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\RegisterViewModel.csutf-8¨
-¢D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserManagerResponse.csutf-8¢
-òD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserModel.csutf-8û
-îD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\NoticeModel.csutf-8õ
-ëD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModel.csutf-8£
-ôD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModelImpostor.csutf-8ü
-ïD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\ProductModel.csutf-8ì
-âD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Program.csutf-8£
-ôD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\INoticeService.csutf-8°
-óD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IPetServices.csutf-8§
-öD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IProductService.csutf-8°
-óD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IUserService.csutf-8¢
-òD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\NoticeService.csutf-8†
-ñD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\PetServices.csutf-8£
-ôD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\ProductService.csutf-8†
-ñD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\UserService.csutf-8ì
-âD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Startup.csutf-8—
-≈D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8¬
-∂D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.AssemblyInfo.csutf-8’
-…D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.MvcApplicationPartsAssemblyInfo.csutf-8
+|
+sC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.csutf-8~
+uC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\NoticeController.csutf-8{
+rC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\PetController.csutf-8
+vC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\ProductController.csutf-8{
+rC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\ApplicationDbContext.csutf-8x
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\AutoMapperProfile.csutf-8|
+sC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\NoticeEntity.csutf-8y
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\PetEntity.csutf-8}
+tC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\ProductEntity.csutf-8y
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\IRefuge.csutf-8x
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\Refuge.csutf-8Ä
+wC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\BadRequestException.csutf-8~
+uC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\NotFoundException.csutf-8Ä
+wC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.csutf-8å
+ÄC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.Designer.csutf-8ä
+ÄC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.csutf-8ï
+âC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.Designer.csutf-8à
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.csutf-8î
+àC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.Designer.csutf-8á
+~C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.csutf-8ì
+áC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.Designer.csutf-8á
+~C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.csutf-8ì
+áC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.Designer.csutf-8ë
+ÖC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\ApplicationDbContextModelSnapshot.csutf-8Ç
+yC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateRoleViewModel.csutf-8Ü
+}C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateUserRoleViewModel.csutf-8y
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\LoginModel.csutf-8Ä
+wC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\RegisterViewModel.csutf-8Ç
+yC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserManagerResponse.csutf-8x
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserModel.csutf-8t
+kC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\NoticeModel.csutf-8q
+hC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModel.csutf-8y
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModelImpostor.csutf-8u
+lC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\ProductModel.csutf-8i
+`C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Program.csutf-8y
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\INoticeService.csutf-8w
+nC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IPetServices.csutf-8z
+qC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IProductService.csutf-8w
+nC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IUserService.csutf-8x
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\NoticeService.csutf-8v
+mC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\PetServices.csutf-8y
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\ProductService.csutf-8v
+mC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\UserService.csutf-8i
+`C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Startup.csutf-8®
+úC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8ô
+çC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.AssemblyInfo.csutf-8¨
+†C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\obj\Debug\netcoreapp3.1\BackEndAlbergue.MvcApplicationPartsAssemblyInfo.csutf-8

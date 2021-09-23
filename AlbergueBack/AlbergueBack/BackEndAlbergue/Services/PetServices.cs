@@ -118,11 +118,11 @@ namespace BackEndAlbergue.Services
             return _refugeRepository.DeletePet(petId);
         }
 
-        public PetModelImpostor UpdatePet(int PetId, PetModel petModel)
+        public PetModelImpostor UpdatePet(int petId, PetModel petModel)
         {
             
             var impostor = new PetModelImpostor();
-            impostor.Id = PetId;
+            impostor.Id = petId;
             impostor.Name = petModel.Name;
             impostor.Sex = petModel.Sex;
             impostor.Description = petModel.Description;

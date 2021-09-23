@@ -17,52 +17,13 @@ namespace BackEndAlbergue.Data.Repository
 
         public Refuge()
         {
-            _firstPet = new PetEntity();
-            _lastPet = new PetEntity();
-            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * from pets order by id asc limit 1;";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-            commandDatabase.CommandTimeout = 60;
-            databaseConnection.Open();
-            MySqlDataReader _reader = commandDatabase.ExecuteReader();
-            if (_reader.HasRows)
-            {
-                while (_reader.Read())
-                {
-                    _firstPet.Id = _reader.GetInt32(0);
-                    _firstPet.Name = _reader.GetString(1);
-                    _firstPet.Sex = _reader.GetChar(2);
-                    _firstPet.Description = _reader.GetString(3);
-                    _firstPet.Photo = _reader.GetString(4);
-                    _firstPet.Vaccines = _reader.GetString(5);
-                    _firstPet.Sterilization = _reader.GetBoolean(6);
-                    _firstPet.Size = _reader.GetString(7);
-                    _firstPet.age = _reader.GetDateTime(8);
-                    _firstPet.IsAdopted = _reader.GetBoolean(9);
-                    if (_reader.IsDBNull(10))
-                    {
-                        _firstPet.next = null;
-                    }
-                    else
-                    {
-                        _firstPet.next = _reader.GetInt32(10);
-                    }
-                    if (_reader.IsDBNull(11))
-                    {
-                        _firstPet.previous = null;
-                    }
-                    else
-                    {
-                        _firstPet.previous = _reader.GetInt32(11);
-                    }
-                }
-                databaseConnection.Close();
-            }
-            if (_firstPet.Name == null)
-            {
-                _firstPet = null;
-            }
+            checkFirstPet();
+            checkLastPet();
+        }
 
+        private void checkLastPet()
+        {
+            _lastPet = new PetEntity();
             MySqlConnection databaseConnection2 = new MySqlConnection(connectionString);
             string query2 = $"SELECT * from pets order by id desc limit 1;";
             MySqlCommand commandDatabase2 = new MySqlCommand(query2, databaseConnection2);
@@ -83,22 +44,8 @@ namespace BackEndAlbergue.Data.Repository
                     _lastPet.Size = _reader2.GetString(7);
                     _lastPet.age = _reader2.GetDateTime(8);
                     _lastPet.IsAdopted = _reader2.GetBoolean(9);
-                    if (_reader2.IsDBNull(10))
-                    {
-                        _lastPet.next = null;
-                    }
-                    else
-                    {
-                        _lastPet.next = _reader2.GetInt32(10);
-                    }
-                    if (_reader2.IsDBNull(11))
-                    {
-                        _lastPet.previous = null;
-                    }
-                    else
-                    {
-                        _lastPet.previous = _reader2.GetInt32(11);
-                    }
+                    _lastPet.next = IsThereANextDog(_reader2.IsDBNull(10), _reader2.GetInt32(10));
+                    _lastPet.previous = IsThereAPrevDog(_reader2.IsDBNull(11), _reader2.GetInt32(11));
                 }
                 databaseConnection2.Close();
             }
@@ -106,7 +53,59 @@ namespace BackEndAlbergue.Data.Repository
             {
                 _lastPet = null;
             }
+        }
 
+        private void checkFirstPet()
+        {
+            _firstPet = new PetEntity();
+            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+            string query = $"SELECT * from pets order by id asc limit 1;";
+            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            commandDatabase.CommandTimeout = 60;
+            databaseConnection.Open();
+            MySqlDataReader _reader = commandDatabase.ExecuteReader();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _firstPet.Id = _reader.GetInt32(0);
+                    _firstPet.Name = _reader.GetString(1);
+                    _firstPet.Sex = _reader.GetChar(2);
+                    _firstPet.Description = _reader.GetString(3);
+                    _firstPet.Photo = _reader.GetString(4);
+                    _firstPet.Vaccines = _reader.GetString(5);
+                    _firstPet.Sterilization = _reader.GetBoolean(6);
+                    _firstPet.Size = _reader.GetString(7);
+                    _firstPet.age = _reader.GetDateTime(8);
+                    _firstPet.IsAdopted = _reader.GetBoolean(9);
+                    _firstPet.next = IsThereANextDog(_reader.IsDBNull(10), _reader.GetInt32(11));
+                    _firstPet.previous = IsThereAPrevDog(_reader.IsDBNull(10), _reader.GetInt32(11));
+
+                }
+                databaseConnection.Close();
+            }
+            if (_firstPet.Name == null)
+            {
+                _firstPet = null;
+            }
+        }
+
+        private int? IsThereAPrevDog(bool next, int val)
+        {
+            if (next)
+            {
+                return null;
+            }
+            return val;
+        }
+
+        private int? IsThereANextDog(bool prev, int val)
+        {
+            if (prev)
+            {
+                return null;
+            }
+            return val;
         }
 
         public IEnumerable<PetEntity> GetPets()

@@ -66,7 +66,7 @@ namespace BackEndAlbergue.Services
             }
 
             var user = await userManager.FindByIdAsync(model.UserId);
-            if (role == null)
+            if (user == null)
             {
                 return new UserManagerResponse
                 {

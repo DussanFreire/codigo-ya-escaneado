@@ -1,8 +1,8 @@
-å
-œD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.cs
+»
+sC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\AuthController.cs
 
  R
- ( !!# .55# .JJ# .__# .uu &
+& 1 !!# .55# .JJ# .__# .uu &
 ‹‹  +
 
  
@@ -37,8 +37,8 @@
 " $
 
 ‘‘ 
-””b dµ
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\NoticeController.cs
+””b d‹
+uC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\NoticeController.cs
 
  !<
  - ## (@@ (RR (kk (,
@@ -114,8 +114,8 @@
 ªª, 9
 
 ªª 
-®®& .ú	
-›D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\PetController.cs
+®®& .Ğ	
+rC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\PetController.cs
 
  H
  ( $$ %;; %WW! ,jj %
@@ -211,8 +211,8 @@
 ÏÏ, 9
 
 ÏÏ 
-ÓÓ& .¶	
-ŸD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\ProductController.cs
+ÓÓ& .Œ	
+vC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Controllers\ProductController.cs
 
  "H
   / ## ):: )VV! 0ii )
@@ -302,8 +302,8 @@
 ÂÂ, 9
 
 ÂÂ 
-ÆÆ& .œ
-›D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\ApplicationDbContext.cs
+ÆÆ& .ò
+rC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\ApplicationDbContext.cs
  %5 I
 
   $
@@ -316,13 +316,13 @@
 K R 
 
   -
-F T -³
-˜D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\AutoMapperProfile.cs
+F T -‰
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\AutoMapperProfile.cs
 
  "
 
-  Û
-œD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\NoticeEntity.cs
+  ±
+sC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\NoticeEntity.cs
 
  
 
@@ -334,8 +334,8 @@
 
  
 
- ¸
-™D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\PetEntity.cs
+ 
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\PetEntity.cs
 
  
 
@@ -363,8 +363,8 @@
 
  
 
- Œ
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\ProductEntity.cs
+ â
+tC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Entities\ProductEntity.cs
 
  
 
@@ -384,8 +384,8 @@
 
  
 
- ø
-™D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\IRefuge.cs
+ Î
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\IRefuge.cs
 
 
 
@@ -445,102 +445,109 @@
 
 9 F
 
-  & .¬G
-˜D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\Refuge.cs
+  & .šH
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Data\Repository\Refuge.cs
 
  ¼
- &E UBBF VssE U
-‘‘E U
-¾¾E U
-ííE U
-ôôJ Z
-‹‹O _
-’’P `
-°°T d
-¼¼X h
-ÇÇX h
-ÏÏW g
-ÚÚE U
-÷÷E U
-E U
-™™E U
-¯¯E U
-»»E U
-ÎÎE U
-ÚÚE U
-ööE U
-E U
-œœE U
-³³E U
-½½E U
- tt< A”
- #    !! "" ## $$ %% && '' (( )) ,, !00 !44 !88 !== ?? 
-ƒƒ 
-…… 
-¤¤; D
-¦¦ 
-¸¸& /
+ &F V==E UrrE U
+E U
+½½E U
+ììE U
+óóJ Z
+ŠŠO _
+‘‘P `
+¯¯T d
+»»X h
+ÆÆX h
+ÎÎW g
+ÙÙE U
+ööE U
+€€E U
+˜˜E U
+®®E U
+ººE U
+ÍÍE U
+ÙÙE U
+õõE U
+E U
+››E U
+²²E U
+¼¼E U
+ ss< A€
+ #<< GG HH II JJ KK LL MM NN OO PP QQ RR WW YY 
+‚‚ 
+„„ 
+££; D
+¥¥ 
+··& /
+¹¹ !
 ºº !
-»» !
-¾¾q zĞ
- " LL MM NN OO PP QQ RR SS TT UU XX  \\  ``  dd  ii kk 
-ƒƒ" *
-†† 
-ŠŠ 
-p x
-‘‘% -
-””X `
-—— 
-¤¤ &
-§§ 
-««" *
+½½q z¼
+ " %% && '' (( )) ** ++ ,, -- .. // 00 44 66 
+‚‚" *
+…… 
+‰‰ 
+ŒŒp x
+% -
+““X `
+–– 
+££ &
+¦¦ 
+ªª" *
+¬¬ 
 ­­ 
-®® 
-²²i q
+±±i q
 
- (
- .C U ;; "
- < A
- ( & 5ª
- #    # *!!% ,""$ +##, 3$$& -%%) 0&&. 5''% ,(($ +))* 1** 00) 022 88- 4(
-BB /DDE XFF gg #
-CC DD= C
-DD )EE GG' 7ª
-GG $HH JJ LL" *MM$ ,NN# +OO+ 3PP% -QQ( 0RR- 5SS$ ,TT# +UU) 1VV  \\( 0^^  dd, 4
+ 
+:: " 
+ ! (
+ /E X 22 #
+ = C
+ )   ' 7ª
+   $!! ## %%" *&&$ ,''# +((+ 3))% -**( 0++- 5,,$ ,--# +..) 1//4 <//K S008 @00O W
+ff $//$ 3QQ% 4
+]] $00( 7RR) 8(
+== .??C UAA UU "
+>> ??< A
+?? (@@ BB& 5ª
+BB #CC EE GG# *HH% ,II$ +JJ, 3KK& -LL) 0MM. 5NN% ,OO$ +PP* 1QQ5 <QQK RRR9 @RRO V
+]]* .__ 
+]]4 7cc 
+ff* .hh 
+ff4 7ll 
 
-pp& -"
-rr  
-‡‡ 
-‹‹ *
-ss .ttC Uvv 
-‰‰ "
-tt (uu ww& 5
-ww #xx zz }} $~~ & %
-€€& -
-  '
-‚‚# *
-ƒƒ( /
-„„ &
-…… %
-††$ +ˆ
-|| !}} ~~  
+oo& -"
+qq  
+†† 
+ŠŠ *
+rr .ssC Uuu 
+ˆˆ "
+ss (tt vv& 5
+vv #ww yy || $}} &~~ %& -
+€€  '
+# *
+‚‚( /
+ƒƒ &
+„„ %
+……$ +†
+{{ !|| }} ~~  
 €€ 
  
 ‚‚ 
 ƒƒ 
 „„ 
 …… 
-†† 
-‡‡  $
+††  $
 
- 
-¡¡  &
-éé $
+ 
+    &
+èè $
 
-$ )
-’’< AÀ
+$ )
+‘‘< AÀ
 
- 
+ 
+›› 
 œœ 
  
  
@@ -550,53 +557,53 @@
 ¢¢ 
 ££ 
 ¤¤ 
-¥¥ 
-¨¨ 
-¬¬ 
-°° 
-´´ 
-¹¹ 0
+§§ 
+«« 
+¯¯ 
+³³ 
+¸¸ 0
 
-‘‘ .
-““C U
-•• 
-·· "
+ .
+’’C U
+”” 
+¶¶ "
 
-’’ 
-““< A$
+‘‘ 
+’’< A$
 
-““ (
-”” 
-––& 5Ì
+’’ (
+““ 
+••& 5Ì
 
-–– #
-—— 
-™™ 
-œœ $
- &
- %
-ŸŸ& -
-    '
-¡¡# *
-¢¢( /
-££ &
-¤¤ %
-¥¥$ +
-¦¦ 
-¬¬! (
-®® 
-´´' .<
+•• #
+–– 
+˜˜ 
+›› $
+œœ &
+ %
+& -
+ŸŸ  '
+  # *
+¡¡( /
+¢¢ &
+££ %
+¤¤$ +
+¥¥ 
+««! (
+­­ 
+³³' .<
 
-»» '
-­­ -
-ºº$ 2
-ÄÄ0 >
-ÅÅ4 B
+ºº '
+¬¬ -
+¹¹$ 2
+ÃÃ0 >
+ÄÄ4 B
 
-»»- 2
-¿¿< AÀ
+ºº- 2
+¾¾< AÀ
 
-½½ 
+¼¼ 
+ÇÇ 
 ÈÈ 
 ÉÉ 
 ÊÊ 
@@ -606,402 +613,402 @@
 ÎÎ 
 ÏÏ 
 ĞĞ 
-ÑÑ 
-ÔÔ 
-ØØ 
-ÜÜ 
-àà 
-ææ 0
+ÓÓ 
+×× 
+ÛÛ 
+ßß 
+åå 0
 
-¾¾ .
-ÀÀC U
-ÂÂ 
-ää "
+½½ .
+¿¿C U
+ÁÁ 
+ãã "
 
-¿¿ 
-ÀÀ< A$
+¾¾ 
+¿¿< A$
 
-ÀÀ (
-ÁÁ 
-ÃÃ& 5Ì
+¿¿ (
+ÀÀ 
+ÂÂ& 5Ì
 
-ÃÃ #
-ÄÄ 
-ÆÆ 
-ÈÈ $
-ÉÉ &
-ÊÊ %
-ËË& -
-ÌÌ  '
-ÍÍ# *
-ÎÎ( /
-ÏÏ &
-ĞĞ %
-ÑÑ$ +
-ÒÒ 
-ØØ# *
-ÚÚ 
-àà' .
+ÂÂ #
+ÃÃ 
+ÅÅ 
+ÇÇ $
+ÈÈ &
+ÉÉ %
+ÊÊ& -
+ËË  '
+ÌÌ# *
+ÍÍ( /
+ÎÎ &
+ÏÏ %
+ĞĞ$ +
+ÑÑ 
+××# *
+ÙÙ 
+ßß' .
 
-èè "¥
+çç "¥
 
-èè- 6
-ëë& /
-ìì" +ïï¢ «ïïµ ¾ïïÈ Ñïïã ìïï÷ €ïï  ©ïïØ áïïì õ
-õõ? H
-õõ[ dõõ ˆ
-şş 
-…… %
-†† $
-ŠŠ  )
-S \
-‘‘ 
-””t }
-—— $
-šš 0
+çç- 6
+êê& /
+ëë" +îî¢ «îîµ ¾îîÈ Ñîîã ìîî÷ €îî  ©îîØ áîîì õ
+ôô? H
+ôô[ dôô ˆ
+ıı 
+„„ %
+…… $
+‰‰  )
+ŒŒS \
+ 
+““t }
+–– $
+™™ 0
 
-êê 
-ğğ 
- 
-•• 
+éé 
+ïï 
+ 
+”” 
 
-ëë ïï ›
+êê îî ›
 
-ìì 2
+ëë 2
 
-íí .
-îî ïï† ˜
-ññ 
+ìì .
+íí îî† ˜
+ğğ 
 
-ïï (
-ğğ %0
+îî (
+ïï %0
 
-ôô 3
-ööH _
-øø #
-€€ '
+óó 3
+õõH _
+÷÷ #
+ÿÿ '
 
-õõ 
-ööA F$
+ôô 
+õõA F$
 
-öö -
-÷÷  
-ùù& :0
+õõ -
+öö  
+øø& :0
 
-ùù #
-úú 
-üü 
-şş# *2
+øø #
+ùù 
+ûû 
+ıı# *2
 
-‹‹  8
-ŒŒ (€ ˜
- (
+ŠŠ  8
+‹‹ (ŒŒ€ ˜
+ (
 
- $
- !2
+ŒŒ $
+ !2
 
-’’  9
-““ )””… 
-–– )
+‘‘  9
+’’ )““… 
+•• )
 
-”” %
-•• "
+““ %
+”” "
 
- $
+œœ $
 
-" '
-¡¡' ,
-ÜÜ: ?T
+œœ" '
+  ' ,
+ÛÛ: ?T
 
-ŸŸ 
-³³ 
-¿¿ 
-ÊÊ 
-ÒÒ 
-ŞŞ 
-àà $
+ 
+²² 
+¾¾ 
+ÉÉ 
+ÑÑ 
+İİ 
+ßß $
 
-   
-áá 
-ââ „
+ŸŸ 
+àà 
+áá „
 
-¡¡ 
-¤¤ 
-¤¤- 4
-«« 
-­­. 5
-¸¸ 
-ºº3 :
-ÄÄ? F
-ÅÅC J
-ÆÆ/ 6
-ÎÎ/ 61
+   
+££ 
+££- 4
+ªª 
+¬¬. 5
+·· 
+¹¹3 :
+ÃÃ? F
+ÄÄC J
+ÅÅ/ 6
+ÍÍ/ 61
 
-°°$ =
-±± -²²y ’
-´´ -
+¯¯$ =
+°° -±±y ’
+³³ -
 
-²²! )
-³³ &2
+±±! )
+²² &2
 
-¼¼( A
-½½ 1¾¾‚ ›
-ÀÀ 1
+»»( A
+¼¼ 1½½‚ ›
+¿¿ 1
 
-¾¾% -
-¿¿" *2
+½½% -
+¾¾" *2
 
-ÄÄ" -
-ÆÆ #ÉÉƒ 
-ÑÑ[ f1
+ÃÃ" -
+ÅÅ #ÈÈƒ 
+ĞĞ[ f1
 
-ÅÅ" 1
-ÉÉ` o
-ÎÎ 'ÑÑz ‰2
+ÄÄ" 1
+ÈÈ` o
+ÍÍ 'ĞĞz ‰2
 
-ÇÇ( A
-ÈÈ 1ÉÉ– ¯
-ËË 1
+ÆÆ( A
+ÇÇ 1ÈÈ– ¯
+ÊÊ 1
 
-ÉÉ% -
-ÊÊ" *2
+ÈÈ% -
+ÉÉ" *2
 
-ÏÏ( @
-ĞĞ 0ÑÑ‘ ©
-ÓÓ 0
+ÎÎ( @
+ÏÏ 0ĞĞ‘ ©
+ÒÒ 0
 
-ÑÑ% ,
-ÒÒ" )0
+ĞĞ% ,
+ÑÑ" )0
 
-ÚÚ .
-ÛÛ 
-İİC U
-ßß 
+ÙÙ .
+ÚÚ 
+ÜÜC U
+ŞŞ 
 
-ÜÜ 
-İİ< A
+ÛÛ 
+ÜÜ< A
 
-İİ (
-ŞŞ %
+ÜÜ (
+İİ %
 
-åå "
+ää "
 
-åå- 6
-éé% .
-êê (
-ëë '
-ìì& /
-íí (
-îî  )
-ïï# ,
-ğğ( 1
-ññ '
-òò$ -
-üü 
+ää- 6
+èè% .
+éé (
+êê '
+ëë& /
+ìì (
+íí  )
+îî# ,
+ïï( 1
+ğğ '
+ññ$ -
+ûû 
 
-çç 
-úú è
+ææ 
+ùù è
 
-éé 
+èè 
+éé 
+éé1 <
 êê 
-êê1 <
+êê/ :
 ëë 
-ëë/ :
+ëë? J
 ìì 
-ìì? J
+ìì1 <
 íí 
-íí1 <
+íí3 >
 îî 
-îî3 >
+îî9 D
 ïï 
-ïï9 D
+ïïC N
 ğğ 
-ğğC N
+ğğ/ :
 ññ 
-ññ/ :
-òò 
-òò; F
-ôô& 1
-õõ" -
-ùùO Z
-ùùj uùù ™ùù² ½ùùÑ Üùù šùùĞ Ûùù‰ ”
+ññ; F
+óó& 1
+ôô" -
+øøO Z
+øøj uøø ™øø² ½øøÑ Üøø šøøĞ Ûøø‰ ”
 
-ôô ùù÷ „
+óó øø÷ „
 
-õõ ùùğ ù2
+ôô øøğ ù2
 
-÷÷ .
-øø ùùœ ®
-ûû 
+öö .
+÷÷ øøœ ®
+úú 
 
-ùù  
-úú 
+øø  
+ùù 
 
-şş) 3$
+ıı) 3$
 
-€€ &
- 
-”” 0
+ÿÿ &
+ 
+““ 0
 
- .
-ƒƒC U
-…… 
-’’ "
+€€ .
+‚‚C U
+„„ 
+‘‘ "
 
-‚‚ 
-ƒƒ< A$
+ 
+‚‚< A$
 
-ƒƒ (
-„„ 
-††& 5T
+‚‚ (
+ƒƒ 
+……& 5T
 
-†† #
-‡‡ 
-‰‰ 
-ŒŒ  '
+…… #
+†† 
+ˆˆ 
+‹‹  '
+ŒŒ# *
 # *
-# *
-" )H
+" )H
 
-‹‹! '
+ŠŠ! '
+‹‹ 
 ŒŒ 
  
  
- 
-  &
+  &
 
-–– %
-ÉÉ! *
+•• %
+ÈÈ! *
 
-––* 2
-šš> FH
+••* 2
+™™> FH
 
-˜˜ 
+—— 
+¢¢ 
 ££ 
 ¤¤ 
 ¥¥ 
-¦¦ 
-ªª 0
+©© 0
 
-™™ .
-››C U
- 
-¨¨ "
+˜˜ .
+ššC U
+œœ 
+§§ "
 
-šš 
-››< A$
+™™ 
+šš< A$
 
-›› (
-œœ 
-& 5T
+šš (
+›› 
+& 5T
 
- #
-ŸŸ 
-¡¡ 
-££  '
+ #
+ 
+   
+¢¢  '
+££# *
 ¤¤# *
-¥¥# *
-¦¦" )
+¥¥" )
 
-¬¬ (@
+«« (@
 
-¬¬6 B
-±±p |±±‡ “±± ª
-´´ 
+««6 B
+°°p |°°‡ “°° ª
+³³ 
 
-®® 
-²² 2
+­­ 
+±± 2
 
-¯¯ .
-°° ±±Ü î
-³³ 
+®® .
+¯¯ °°Ü î
+²² 
 
-±± (
-²² %
+°° (
+±± %
 
-··  
+¶¶  
 
-··% -
-½½< D$
+¶¶% -
+¼¼< D$
 
-¹¹ 
-¿¿ 
-ÁÁ $
+¸¸ 
+¾¾ 
+ÀÀ $
 
-ºº 
-ÂÂ 
-ÃÃ 0
+¹¹ 
+ÁÁ 
+ÂÂ 0
 
-»» .
-¼¼ 
-¾¾C U
-ÀÀ 
+ºº .
+»» 
+½½C U
+¿¿ 
 
-½½ 
-¾¾< A
+¼¼ 
+½½< A
 
-¾¾ (
-¿¿ %
+½½ (
+¾¾ %
 
-ÆÆ (H
+ÅÅ (H
 
-ÆÆ6 B
-ÉÉ+ 7
+ÅÅ6 B
+ÈÈ+ 7
+ÉÉ# /
 ÊÊ# /
-ËË# /
-ÌÌ" .
-ÔÔ 
+ËË" .
+ÓÓ 
 
-ÈÈ 
-ÒÒ ‰
+ÇÇ 
+ÑÑ ‰
 
-ÉÉ 
+ÈÈ 
+ÉÉ 
+ÉÉ9 G
 ÊÊ 
 ÊÊ9 G
 ËË 
-ËË9 G
-ÌÌ 
-ÌÌ7 E
-ÑÑR `ÑÑr €ÑÑ“ ¡ÑÑÛ é2
+ËË7 E
+ĞĞR `ĞĞr €ĞĞ“ ¡ĞĞÛ é2
 
-ÎÎ .
-ÏÏ ÑÑğ ‚
-ÓÓ 
+ÍÍ .
+ÎÎ ĞĞğ ‚
+ÒÒ 
 
-ÑÑ  
-ÒÒ 
+ĞĞ  
+ÑÑ 
 
-××* 5$
+ÖÖ* 5$
 
-ÙÙ  ,
-íí  
-ññ 0
+ØØ  ,
+ìì  
+ğğ 0
 
-ÚÚ .
-ÜÜC U
-ŞŞ 
-ïï "
+ÙÙ .
+ÛÛC U
+İİ 
+îî "
 
-ÛÛ 
-ÜÜ< A$
+ÚÚ 
+ÛÛ< A$
 
-ÜÜ (
-İİ 
-ßß& 5„
+ÛÛ (
+ÜÜ 
+ŞŞ& 5„
 
-ßß #
-àà 
-ââ 
-åå% ,
-ææ. 5
-çç& -
-èè( /
-éé+ 2
-êê, 3
-ëë( /
-ìì( /x
+ŞŞ #
+ßß 
+áá 
+ää% ,
+åå. 5
+ææ& -
+çç( /
+èè+ 2
+éé, 3
+êê( /
+ëë( /x
 
-ää" -
+ãã" -
+ää 
 åå 
 ææ 
 çç 
@@ -1009,16 +1016,16 @@
 éé 
 êê 
 ëë 
-ìì 
-íí% 0
+ìì% 0
 
-óó '
-ªª& 0
+òò '
+©©& 0
 
-óó, 2
-÷÷? Ex
+òò, 2
+öö? Ex
 
-õõ %
+ôô %
+ÿÿ 
 €€ 
  
 ‚‚ 
@@ -1026,145 +1033,144 @@
 „„ 
 …… 
 †† 
-‡‡ 
-‹‹ 0
+ŠŠ 0
 
-öö .
-øøC U
-úú 
-‰‰ "
+õõ .
+÷÷C U
+ùù 
+ˆˆ "
 
-÷÷ 
-øø< A$
+öö 
+÷÷< A$
 
-øø (
-ùù 
-ûû& 5„
+÷÷ (
+øø 
+úú& 5„
 
-ûû #
-üü 
-şş 
-€€% ,
-. 5
-‚‚& -
-ƒƒ( /
-„„+ 2
-……, 3
-††( /
-‡‡( /
+úú #
+ûû 
+ıı 
+ÿÿ% ,
+€€. 5
+& -
+‚‚( /
+ƒƒ+ 2
+„„, 3
+……( /
+††( /
 
- *z
+ŒŒ *z
 
-9 F’’™ ¦’’· Ä’’Í Ú’’å ò’’€ ’’œ ©’’³ À
-••  
+ŒŒ9 F‘‘™ ¦‘‘· Ä‘‘Í Ú‘‘å ò‘‘€ ‘‘œ ©‘‘³ À
+””  
 
- 
-““ 2
+ 
+’’ 2
 
- .
-‘‘ ’’Ë İ
-”” 
+ .
+ ‘‘Ë İ
+““ 
 
-’’ (
-““ %
+‘‘ (
+’’ %
 
-˜˜ !
+—— !
 
-˜˜& ,
-= C$
+——& ,
+= C$
 
-šš 
-   
-¢¢ $
+™™ 
+ŸŸ 
+¡¡ $
 
-›› 
-££ 
-¤¤ 0
+šš 
+¢¢ 
+££ 0
 
-œœ .
- 
-ŸŸC U
-¡¡ 
+›› .
+œœ 
+C U
+   
 
- 
-ŸŸ< A
+ 
+< A
 
-ŸŸ (
-   %
+ (
+ŸŸ %
 
-§§ *x
+¦¦ *x
 
-§§9 F
-ªª1 >
-««. ;
-¬¬& 3
-­­( 5
-®®+ 8
-¯¯, 9
+¦¦9 F
+©©1 >
+ªª. ;
+««& 3
+¬¬( 5
+­­+ 8
+®®, 9
+¯¯( 5
 °°( 5
-±±( 5
-¸¸  
+··  
 
-©© 
-¶¶ ¢
+¨¨ 
+µµ ¢
 
-ªª #
+©© #
+ªª 
+ªªK ^
 «« 
-««K ^
+««; N
 ¬¬ 
-¬¬; N
+¬¬? R
 ­­ 
-­­? R
+­­E X
 ®® 
-®®E X
+®®G Z
 ¯¯ 
-¯¯G Z
+¯¯? R
 °° 
 °°? R
-±± 
-±±? R
-µµY lµµ‚ •µµ§ ºµµÑ äµµÿ ’µµª ½µµÑ äµµù Œ2
+´´Y l´´‚ •´´§ º´´Ñ ä´´ÿ ’´´ª ½´´Ñ ä´´ù Œ2
 
-³³ .
-´´ µµ“ ¥
-·· 
+²² .
+³³ ´´“ ¥
+¶¶ 
 
-µµ  
-¶¶ 
+´´  
+µµ 
 
-ºº& .$
+¹¹& .$
 
-¼¼ !
-ÌÌ 
-ĞĞ 0
+»» !
+ËË 
+ÏÏ 0
 
-½½ .
-¿¿C U
-ÁÁ 
-ÎÎ "
+¼¼ .
+¾¾C U
+ÀÀ 
+ÍÍ "
 
-¾¾ 
-¿¿< A$
+½½ 
+¾¾< A$
 
-¿¿ (
-ÀÀ 
-ÂÂ& 5T
+¾¾ (
+¿¿ 
+ÁÁ& 5T
 
-ÂÂ #
-ÃÃ 
-ÅÅ 
-ÈÈ %
-ÉÉ$ +
-ÊÊ! (
-ËË( /H
+ÁÁ #
+ÂÂ 
+ÄÄ 
+ÇÇ %
+ÈÈ$ +
+ÉÉ! (
+ÊÊ( /H
 
-ÇÇ "
+ÆÆ "
+ÇÇ 
 ÈÈ 
 ÉÉ 
 ÊÊ 
-ËË 
-ÌÌ "Ñ
- D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\BadRequestException.cs
+ËË "§
+wC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\BadRequestException.cs
 
  $
 
@@ -1175,8 +1181,8 @@
 
 * ,
 
-3 5Ï
-D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\NotFoundException.cs
+3 5¥
+uC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Exceptions\NotFoundException.cs
 
  "
 
@@ -1187,8 +1193,8 @@
 
 ( *
 
-1 3ƒ
- D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.cs
+1 3Ù
+wC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210412171157_init.cs
 
  
 
@@ -1202,8 +1208,8 @@
 ,,0 1,,5 6
 
 00  $
-006 F22 55 â
-©D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.cs
+006 F22 55 ¹
+€C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210417233605_addedIdentity.cs
 
  &
 
@@ -1271,8 +1277,8 @@
 ÍÍ 
 ĞĞ 
 ÓÓ 
-ÖÖ £
-¨D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.cs
+ÖÖ ù
+C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210419004756_previousnext.cs
 
  %
 
@@ -1282,8 +1288,8 @@
    
 
   $(
-6 F "" && ‚
-§D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.cs
+6 F "" && Ø
+~C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503025800_PetShopCRUD.cs
 
  $
 
@@ -1296,8 +1302,8 @@
 3 48 9
 
   $
-6 F   ¢
-§D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.cs
+6 F   ø
+~C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Migrations\20210503155255_datetimepet.cs
 
  $
 
@@ -1307,15 +1313,15 @@
    
 
 ##  $(
-##6 F%% -- 55 É
-¢D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateRoleViewModel.cs
+##6 F%% -- 55 Ÿ
+yC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateRoleViewModel.cs
 
 		 $
 
  
 
- $Í
-¦D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateUserRoleViewModel.cs
+ $£
+}C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\CreateUserRoleViewModel.cs
 
  (
 
@@ -1323,15 +1329,15 @@
 
  
 
- À
-™D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\LoginModel.cs
+ –
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\LoginModel.cs
 
 		 
 
  
 
- Ó
- D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\RegisterViewModel.cs
+ ©
+wC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\RegisterViewModel.cs
 
 		 "
 
@@ -1339,8 +1345,8 @@
 
  
 
- %á
-¢D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserManagerResponse.cs
+ %·
+yC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserManagerResponse.cs
 
  $
 
@@ -1352,8 +1358,8 @@
 
 # )
 
- #×
-˜D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserModel.cs
+ #­
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\Auths\UserModel.cs
 
  
 
@@ -1365,8 +1371,8 @@
 
  
 
- "Ó
-”D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\NoticeModel.cs
+ "©
+kC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\NoticeModel.cs
 
 		 
 
@@ -1376,8 +1382,8 @@
 
  
 
- °
-‘D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModel.cs
+ †
+hC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModel.cs
 
 		 
 
@@ -1403,8 +1409,8 @@
 
  
 
- ¸
-™D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModelImpostor.cs
+ 
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\PetModelImpostor.cs
 
  !
 
@@ -1430,8 +1436,8 @@
 
  
 
- „
-•D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\ProductModel.cs
+ Ú
+lC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Models\ProductModel.cs
 
 		 
 
@@ -1449,8 +1455,8 @@
 
  
 
- ü
-‰D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Program.cs
+ Ò
+`C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Program.cs
 
  
 
@@ -1458,8 +1464,8 @@
 ) - "
 # 4 
 > B& *
-* 4  
-™D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\INoticeService.cs
+* 4 ö
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\INoticeService.cs
 
 		 #
 
@@ -1481,8 +1487,8 @@
 
 , 4
 
-B M
-—D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IPetServices.cs
+B Mô
+nC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IPetServices.cs
 
 		 !
 
@@ -1504,8 +1510,8 @@
 
 . 3
 
-> F¡
-šD:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IProductService.cs
+> F÷
+qC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IProductService.cs
 
 		 $
 
@@ -1527,8 +1533,8 @@
 
 . ;
 
-J Vª
-—D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IUserService.cs
+J V€
+nC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\IUserService.cs
 
 		 !
 
@@ -1552,8 +1558,8 @@
 
  "
 
-5 :Ï
-˜D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\NoticeService.cs
+5 :¥
+oC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\NoticeService.cs
 
  F
  ) " *$$ .++! 222 $88! 2P
@@ -1582,8 +1588,8 @@
 55 '
 55, 477 %
 55B M77 88Z e
-88 99, :Î
-–D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\PetServices.cs
+88 99, :¤
+mC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\PetServices.cs
 
  H
  ) " .;; /nn! 2vv $
@@ -1663,8 +1669,8 @@
  +
 
  
-‘‘1 <Ü
-™D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\ProductService.cs
+‘‘1 <²
+pC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\ProductService.cs
 
  F
  ) " .!! .,,! 244 $99& 7P
@@ -1695,8 +1701,8 @@
 66 )
 66. ;88 +
 66J V88 99a m
-99 #::- @ƒ
-–D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\UserService.cs
+99 #::- @Ù
+mC:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Services\UserService.cs
 
  ‚
 * 5 DD (NN !WW *kk (ww *
@@ -1727,9 +1733,9 @@
 44. /443 4
 
 88/ B
-88[ `::7 <DD7 <2
-:: ;; EE NN6 :WW@ D
-DD NN0 4WW: >
+88[ `::7 <DD7 <(
+:: ;; NN6 :WW@ D(
+DD EE NN0 4WW: >
 WW YY 
 
 ii/ =*
@@ -1803,8 +1809,8 @@
 ßßD I
 
 ßß 
-ãã é
-‰D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Startup.cs
+ãã ¿
+`C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\Startup.cs
  SS* 1
 
  

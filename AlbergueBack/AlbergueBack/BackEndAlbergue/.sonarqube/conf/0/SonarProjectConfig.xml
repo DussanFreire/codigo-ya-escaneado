@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
-  <AnalysisConfigPath>D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
-  <ProjectPath>D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\BackEndAlbergue.csproj</ProjectPath>
-  <FilesToAnalyzePath>D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\conf\0\FilesToAnalyze.txt</FilesToAnalyzePath>
-  <OutPath>D:\Juslan\UNIVERSIDAD\8 Semestre\4. Gestion de Calidad\Practicas\codigo-ya-escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\out\0</OutPath>
+  <AnalysisConfigPath>C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
+  <ProjectPath>C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\BackEndAlbergue.csproj</ProjectPath>
+  <FilesToAnalyzePath>C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\conf\0\FilesToAnalyze.txt</FilesToAnalyzePath>
+  <OutPath>C:\Users\Dussan\Desktop\Codigo ya escaneado\AlbergueBack\AlbergueBack\BackEndAlbergue\.sonarqube\out\0</OutPath>
   <ProjectType>Product</ProjectType>
   <TargetFramework>netcoreapp3.1</TargetFramework>
 </SonarProjectConfig>

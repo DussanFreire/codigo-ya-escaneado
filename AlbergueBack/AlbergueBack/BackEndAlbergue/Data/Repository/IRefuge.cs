@@ -11,9 +11,9 @@ namespace BackEndAlbergue.Data.Repository
     {
         //PETS
         public IEnumerable<PetEntity> GetPets();
-        public PetEntity GetPet(int PetId);
+        public PetEntity GetPet(int petId);
         public PetEntity CreatePet(PetEntity petEntity);
-        public bool DeletePet(int PetId);
+        public bool DeletePet(int petId);
         public PetEntity UpdatePet(PetEntity petEntity);
         //NOTICES
         public IEnumerable<NoticeEntity> GetNotices();
