@@ -25,8 +25,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             _lastPet = new PetEntity();
             MySqlConnection databaseConnection2 = new MySqlConnection(connectionString);
-            string query2 = $"SELECT * from pets order by id desc limit 1;";
-            MySqlCommand commandDatabase2 = new MySqlCommand(query2, databaseConnection2);
+            string localQuery = $"SELECT * from pets order by id desc limit 1;";
+            MySqlCommand commandDatabase2 = new MySqlCommand(localQuery, databaseConnection2);
             commandDatabase2.CommandTimeout = 60;
             databaseConnection2.Open();
             MySqlDataReader _reader2 = commandDatabase2.ExecuteReader();
@@ -59,8 +59,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             _firstPet = new PetEntity();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * from pets order by id asc limit 1;";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * from pets order by id asc limit 1;";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -142,8 +142,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             PetEntity pet = new PetEntity();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM pets where Id = {petId}";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM pets where Id = {petId}";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -187,8 +187,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             PetEntity pet = new PetEntity();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM pets where Id = {petId}";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM pets where Id = {petId}";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -230,19 +230,17 @@ namespace BackEndAlbergue.Data.Repository
         }
         public PetEntity CreatePet(PetEntity petEntity)
         {
-            int retorno = 0;
             int sterilization = (bool)petEntity.Sterilization ? 1 : 0;
-            int isAdopted = (bool)petEntity.IsAdopted ? 1 : 0;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
             MySqlCommand commandDatabase = new MySqlCommand($"Insert into  pets(Name, Sex, Description,Size,Vaccines,Sterilization,age,Photo,IsAdopted) values( '{petEntity.Name}','{petEntity.Sex}', '{petEntity.Description}', '{petEntity.Size}', '{petEntity.Vaccines}','{sterilization}','{petEntity.age.Value.ToString("yyyy-MM-dd HH:mm:ss")}','{petEntity.Photo}','{petEntity.IsAdopted}' )", databaseConnection);
-            retorno = commandDatabase.ExecuteNonQuery();
+            commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
 
 
             MySqlConnection databaseConnectionGetId = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM pets where Name = '{petEntity.Name}' and sex= '{petEntity.Sex}' and Description = '{petEntity.Description}' ";
-            MySqlCommand commandDatabaseGetId = new MySqlCommand(query, databaseConnectionGetId);
+            string localQuery = $"SELECT * FROM pets where Name = '{petEntity.Name}' and sex= '{petEntity.Sex}' and Description = '{petEntity.Description}' ";
+            MySqlCommand commandDatabaseGetId = new MySqlCommand(localQuery, databaseConnectionGetId);
             commandDatabaseGetId.CommandTimeout = 60;
             databaseConnectionGetId.Open();
             MySqlDataReader _reader = commandDatabaseGetId.ExecuteReader();
@@ -266,14 +264,14 @@ namespace BackEndAlbergue.Data.Repository
                 MySqlConnection databaseConnectionUpdate = new MySqlConnection(connectionString);
                 databaseConnectionUpdate.Open();
                 MySqlCommand comando = new MySqlCommand($"Update pets set next = '{petEntity.Id}'  where Id = { _lastPet.Id }", databaseConnectionUpdate);
-                retorno = comando.ExecuteNonQuery();
+                comando.ExecuteNonQuery();
                 databaseConnectionUpdate.Close();
 
                 petEntity.previous = _lastPet.Id;
                 MySqlConnection databaseConnectionUpdate2 = new MySqlConnection(connectionString);
                 databaseConnectionUpdate2.Open();
                 MySqlCommand comando2 = new MySqlCommand($"Update pets set previous = '{_lastPet.Id}'  where Id = { petEntity.Id }", databaseConnectionUpdate2);
-                retorno = comando2.ExecuteNonQuery();
+                comando2.ExecuteNonQuery();
                 databaseConnectionUpdate2.Close();
                 _lastPet = petEntity;
             }
@@ -283,11 +281,11 @@ namespace BackEndAlbergue.Data.Repository
 
         public bool DeletePet(int petId)
         {
-            int retorno = 0;
             bool res = false;
             PetEntity thisPet = GetPet(petId);
-        
 
+
+            int retorno;
             if (thisPet.Id == _lastPet.Id && thisPet.Id == _firstPet.Id)
             {
                 _firstPet = null;
@@ -339,13 +337,13 @@ namespace BackEndAlbergue.Data.Repository
                     }
                 }
             }
-          
+
 
 
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
-            string query = $"Delete From pets where Id ={ petId }";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"Delete From pets where Id ={ petId }";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             retorno = commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
             if (retorno == 1)
@@ -355,8 +353,6 @@ namespace BackEndAlbergue.Data.Repository
 
         public PetEntity UpdatePet(PetEntity petEntity)
         {
-            int retorno = 0;
-
             var petToUpdate = GetPet(petEntity.Id);
             petToUpdate.Name = petEntity.Name ?? petToUpdate.Name;
             petToUpdate.Sex = petEntity.Sex ?? petToUpdate.Sex;
@@ -374,7 +370,7 @@ namespace BackEndAlbergue.Data.Repository
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
             MySqlCommand comando = new MySqlCommand($"Update pets set Name = '{petToUpdate.Name}', Sex='{ petToUpdate.Sex }', Description = '{petToUpdate.Description}', Size = '{petToUpdate.Size}', Vaccines='{petToUpdate.Vaccines}',Sterilization={sterilization}, age = '{petToUpdate.age.Value.ToString("yyyy-MM-dd HH:mm:ss")}', Photo='{petToUpdate.Photo}', IsAdopted={isAdopted}  where Id = { petToUpdate.Id }", databaseConnection);
-            retorno = comando.ExecuteNonQuery();
+            comando.ExecuteNonQuery();
             databaseConnection.Close();
             return petEntity;
         }
@@ -382,8 +378,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             List<NoticeEntity> notices = new List<NoticeEntity>();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM notice";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM notice";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -406,8 +402,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             NoticeEntity notice = new NoticeEntity();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM notice where id = {NoticeId}";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM notice where id = {NoticeId}";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -426,11 +422,10 @@ namespace BackEndAlbergue.Data.Repository
         }
         public NoticeEntity CreateNotice(NoticeEntity noticeEntity)
         {
-            int retorno = 0;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
             MySqlCommand commandDatabase = new MySqlCommand($"Insert into  notice(title, image, date) values( '{noticeEntity.title}','{noticeEntity.image}','{noticeEntity.date.Value.ToString("yyyy-MM-dd HH:mm:ss")}' )", databaseConnection);
-            retorno = commandDatabase.ExecuteNonQuery();
+            commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
             return noticeEntity;
         }
@@ -441,8 +436,8 @@ namespace BackEndAlbergue.Data.Repository
             bool res = false;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
-            string query = $"Delete From notice where id ={ NoticeId }";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"Delete From notice where id ={ NoticeId }";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             retorno = commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
             if (retorno == 1)
@@ -452,7 +447,6 @@ namespace BackEndAlbergue.Data.Repository
 
         public NoticeEntity UpdateNotice(NoticeEntity noticeEntity)
         {
-            int retorno = 0;
             var noticeToUpdate = GetNotice(noticeEntity.id);
             noticeToUpdate.title = noticeEntity.title ?? noticeToUpdate.title;
             noticeToUpdate.image = noticeEntity.image ?? noticeToUpdate.image;
@@ -462,7 +456,7 @@ namespace BackEndAlbergue.Data.Repository
             databaseConnection.Open();
 
             MySqlCommand comando = new MySqlCommand($"Update notice set title = '{noticeToUpdate.title}', image='{noticeToUpdate.image}', date = '{noticeToUpdate.date.Value.ToString("yyyy-MM-dd HH:mm:ss")}' where id = {noticeToUpdate.id}", databaseConnection);
-            retorno = comando.ExecuteNonQuery();
+            comando.ExecuteNonQuery();
             databaseConnection.Close();
             return noticeEntity;
         }
@@ -471,8 +465,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             List<ProductEntity> petShopItems = new List<ProductEntity>();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM petShop";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM petShop";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -499,8 +493,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             ProductEntity petShopItem = new ProductEntity();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM petShop where id = {ItemId}";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM petShop where id = {ItemId}";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();
@@ -523,11 +517,10 @@ namespace BackEndAlbergue.Data.Repository
         }
         public ProductEntity CreateProduct(ProductEntity productEntity)
         {
-            int retorno = 0;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
             MySqlCommand commandDatabase = new MySqlCommand($"Insert into  petShop(ProductName, Sex, Photo, Category, SizeOfPet, Price, Stock) values( '{productEntity.ProductName}','{productEntity.Sex}','{productEntity.Photo}','{productEntity.Category}','{productEntity.SizeOfPet}','{productEntity.Price}',{productEntity.Stock})", databaseConnection);
-            retorno = commandDatabase.ExecuteNonQuery();
+            commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
             return productEntity;
         }
@@ -538,8 +531,8 @@ namespace BackEndAlbergue.Data.Repository
             bool res = false;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
-            string query = $"Delete From petShop where id ={ ItemId }";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"Delete From petShop where id ={ ItemId }";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             retorno = commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
             if (retorno == 1)
@@ -549,7 +542,6 @@ namespace BackEndAlbergue.Data.Repository
 
         public ProductEntity UpdateProduct(ProductEntity productEntity)
         {
-            int retorno = 0;
             var petShopItemToUpdate = GetProduct(productEntity.Id);
             petShopItemToUpdate.ProductName = productEntity.ProductName ?? petShopItemToUpdate.ProductName;
             petShopItemToUpdate.Sex = productEntity.Sex ?? petShopItemToUpdate.Sex;
@@ -562,7 +554,7 @@ namespace BackEndAlbergue.Data.Repository
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
             MySqlCommand comando = new MySqlCommand($"Update petShop set ProductName = '{petShopItemToUpdate.ProductName}', Sex='{petShopItemToUpdate.Sex}', Photo = '{petShopItemToUpdate.Photo}', Category = '{petShopItemToUpdate.Category}', SizeOfPet = '{petShopItemToUpdate.SizeOfPet}', Price = '{petShopItemToUpdate.Price}', Stock = '{petShopItemToUpdate.Stock}' where id = {petShopItemToUpdate.Id}", databaseConnection);
-            retorno = comando.ExecuteNonQuery();
+            comando.ExecuteNonQuery();
             databaseConnection.Close();
             return productEntity;
         }
@@ -570,8 +562,8 @@ namespace BackEndAlbergue.Data.Repository
         {
             List<UserModel> users = new List<UserModel>();
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-            string query = $"SELECT * FROM aspnetusers";
-            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            string localQuery = $"SELECT * FROM aspnetusers";
+            MySqlCommand commandDatabase = new MySqlCommand(localQuery, databaseConnection);
             commandDatabase.CommandTimeout = 60;
             databaseConnection.Open();
             MySqlDataReader _reader = commandDatabase.ExecuteReader();

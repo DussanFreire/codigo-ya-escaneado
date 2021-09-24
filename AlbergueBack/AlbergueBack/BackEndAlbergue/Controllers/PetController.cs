@@ -16,7 +16,7 @@ namespace BackEndAlbergue.Controllers
     [Route("api/[controller]")]
     public class PetController : ControllerBase
     {
-        private IPetServices _petService;
+        private readonly IPetServices _petService;
         private readonly IWebHostEnvironment _webHostEnvironment;
         public PetController(IPetServices petService, IWebHostEnvironment hostEnvironment)
         {
@@ -83,7 +83,6 @@ namespace BackEndAlbergue.Controllers
                 {
                     return BadRequest(petModel);
                 }
-                var url = HttpContext.Request.Host;
                 var createdPet = _petService.CreatePet(petModel);
                 return CreatedAtRoute("GetPet", new { petId = createdPet.Id }, createdPet);
             }
@@ -174,18 +173,6 @@ namespace BackEndAlbergue.Controllers
                     photo.CopyTo(fileStream);
                 }
             }
-            //string uniqueFileName = null;
-            //string filePath = "";
-            //if (photo != null)
-            //{
-            //    string uploadsFolder = "C://Xamp/balbl";
-            //    uniqueFileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
-            //    filePath = Path.Combine(uploadsFolder, uniqueFileName);
-            //    using (var fileStream = new FileStream(filePath, FileMode.Create))
-            //    {
-            //        photo.CopyTo(fileStream);
-            //    }
-            //}
             return Ok(uniqueFileName);
         }
 
@@ -205,9 +192,6 @@ namespace BackEndAlbergue.Controllers
                 images_path = images_path.Substring(0, images_path.Length - 29);
                 string uploadsFolder = Path.Combine(images_path, $"AlbergueFront/src/assets/pets");
                 var filePath = Path.Combine(uploadsFolder, photo_name);
-                //using (var fileStream = new FileStream(filePath, FileMode.Open))
-                //{
-                //}
                 System.IO.File.Delete(filePath);
             }
             return Ok(true);

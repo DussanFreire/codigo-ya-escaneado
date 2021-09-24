@@ -16,7 +16,7 @@ namespace BackEndAlbergue.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        private IProductService _petShopService;
+        private readonly IProductService _petShopService;
         private readonly IWebHostEnvironment _webHostEnvironment;
         public ProductController(IProductService petShopService, IWebHostEnvironment hostEnvironment)
         {
@@ -82,7 +82,6 @@ namespace BackEndAlbergue.Controllers
                 {
                     return BadRequest(petShopModel);
                 }
-                var url = HttpContext.Request.Host;
                 var createdPet = _petShopService.CreateProduct(petShopModel);
                 return Ok(createdPet);
             }
@@ -150,18 +149,6 @@ namespace BackEndAlbergue.Controllers
         [HttpPost("photo")]
         public ActionResult<string> photo([FromForm] IFormFile photo)
         {
-            //string uniqueFileName = null;
-            //string filePath = "";
-            //if (photo != null)
-            //{
-            //    string uploadsFolder = "C://Xamp/balbl";
-            //    uniqueFileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
-            //    filePath = Path.Combine(uploadsFolder, uniqueFileName);
-            //    using (var fileStream = new FileStream(filePath, FileMode.Create))
-            //    {
-            //        photo.CopyTo(fileStream);
-            //    }
-            //}
             string uniqueFileName = null;
             string filePath = "";
             if (photo != null)
@@ -192,9 +179,6 @@ namespace BackEndAlbergue.Controllers
                 images_path = images_path.Substring(0, images_path.Length - 29);
                 string uploadsFolder = Path.Combine(images_path, $"AlbergueFront/src/assets/Petshop");
                 var filePath = Path.Combine(uploadsFolder, photo_name);
-                //using (var fileStream = new FileStream(filePath, FileMode.Open))
-                //{
-                //}
                 System.IO.File.Delete(filePath);
             }
             return Ok(true);
