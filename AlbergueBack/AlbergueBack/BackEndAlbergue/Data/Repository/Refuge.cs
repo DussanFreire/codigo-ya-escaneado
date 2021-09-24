@@ -310,7 +310,6 @@ namespace BackEndAlbergue.Data.Repository
                         _firstPet.previous = null;
                         MySqlConnection databaseConnectionUpdate4 = new MySqlConnection(connectionString);
                         databaseConnectionUpdate4.Open();
-                        MySqlCommand comando4 = new MySqlCommand($"Update pets set previous = NULL  where Id = { _firstPet.Id }", databaseConnectionUpdate4);
                         databaseConnectionUpdate4.Close();
                     }
                     else
@@ -320,14 +319,12 @@ namespace BackEndAlbergue.Data.Repository
                         thisPetNext.previous = thisPet.previous;
                         MySqlConnection databaseConnectionUpdate2 = new MySqlConnection(connectionString);
                         databaseConnectionUpdate2.Open();
-                        MySqlCommand comando2 = new MySqlCommand($"Update pets set previous = '{thisPetPrevious.Id}'  where Id = { thisPetNext.Id }", databaseConnectionUpdate2);
                         databaseConnectionUpdate2.Close();
 
 
                         thisPetPrevious.next = thisPet.next;
                         MySqlConnection databaseConnectionUpdate = new MySqlConnection(connectionString);
                         databaseConnectionUpdate.Open();
-                        MySqlCommand comando = new MySqlCommand($"Update pets set next = '{thisPetNext.Id}'  where Id = { thisPetPrevious.Id }", databaseConnectionUpdate);
                         databaseConnectionUpdate.Close();
                     }
                 }

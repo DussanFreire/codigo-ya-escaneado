@@ -14,7 +14,6 @@ namespace BackEndAlbergue.Services
     {
         private IRefuge _refugeRepository;
         private IMapper _mapper;
-        private object petModel;
 
         public ProductService(IRefuge refugeRepository, IMapper _mapper)
         {
