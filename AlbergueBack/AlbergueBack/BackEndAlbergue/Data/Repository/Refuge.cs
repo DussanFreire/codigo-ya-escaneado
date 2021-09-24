@@ -521,15 +521,15 @@ namespace BackEndAlbergue.Data.Repository
             }
             return petShopItem;
         }
-        public ProductEntity CreateProduct(ProductEntity petShopEntity)
+        public ProductEntity CreateProduct(ProductEntity productEntity)
         {
             int retorno = 0;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
-            MySqlCommand commandDatabase = new MySqlCommand($"Insert into  petShop(ProductName, Sex, Photo, Category, SizeOfPet, Price, Stock) values( '{petShopEntity.ProductName}','{petShopEntity.Sex}','{petShopEntity.Photo}','{petShopEntity.Category}','{petShopEntity.SizeOfPet}','{petShopEntity.Price}',{petShopEntity.Stock})", databaseConnection);
+            MySqlCommand commandDatabase = new MySqlCommand($"Insert into  petShop(ProductName, Sex, Photo, Category, SizeOfPet, Price, Stock) values( '{productEntity.ProductName}','{productEntity.Sex}','{productEntity.Photo}','{productEntity.Category}','{productEntity.SizeOfPet}','{productEntity.Price}',{productEntity.Stock})", databaseConnection);
             retorno = commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
-            return petShopEntity;
+            return productEntity;
         }
 
         public bool DeleteProduct(int ItemId)
@@ -547,24 +547,24 @@ namespace BackEndAlbergue.Data.Repository
             return res;
         }
 
-        public ProductEntity UpdateProduct(ProductEntity petShopEntity)
+        public ProductEntity UpdateProduct(ProductEntity productEntity)
         {
             int retorno = 0;
-            var petShopItemToUpdate = GetProduct(petShopEntity.Id);
-            petShopItemToUpdate.ProductName = petShopEntity.ProductName ?? petShopItemToUpdate.ProductName;
-            petShopItemToUpdate.Sex = petShopEntity.Sex ?? petShopItemToUpdate.Sex;
-            petShopItemToUpdate.Photo = petShopEntity.Photo ?? petShopItemToUpdate.Photo;
-            petShopItemToUpdate.Category = petShopEntity.Category ?? petShopItemToUpdate.Category;
-            petShopItemToUpdate.SizeOfPet = petShopEntity.SizeOfPet ?? petShopItemToUpdate.SizeOfPet;
-            petShopItemToUpdate.Price = petShopEntity.Price ?? petShopItemToUpdate.Price;
-            petShopItemToUpdate.Stock = petShopEntity.Stock ?? petShopItemToUpdate.Stock;
+            var petShopItemToUpdate = GetProduct(productEntity.Id);
+            petShopItemToUpdate.ProductName = productEntity.ProductName ?? petShopItemToUpdate.ProductName;
+            petShopItemToUpdate.Sex = productEntity.Sex ?? petShopItemToUpdate.Sex;
+            petShopItemToUpdate.Photo = productEntity.Photo ?? petShopItemToUpdate.Photo;
+            petShopItemToUpdate.Category = productEntity.Category ?? petShopItemToUpdate.Category;
+            petShopItemToUpdate.SizeOfPet = productEntity.SizeOfPet ?? petShopItemToUpdate.SizeOfPet;
+            petShopItemToUpdate.Price = productEntity.Price ?? petShopItemToUpdate.Price;
+            petShopItemToUpdate.Stock = productEntity.Stock ?? petShopItemToUpdate.Stock;
 
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
             MySqlCommand comando = new MySqlCommand($"Update petShop set ProductName = '{petShopItemToUpdate.ProductName}', Sex='{petShopItemToUpdate.Sex}', Photo = '{petShopItemToUpdate.Photo}', Category = '{petShopItemToUpdate.Category}', SizeOfPet = '{petShopItemToUpdate.SizeOfPet}', Price = '{petShopItemToUpdate.Price}', Stock = '{petShopItemToUpdate.Stock}' where id = {petShopItemToUpdate.Id}", databaseConnection);
             retorno = comando.ExecuteNonQuery();
             databaseConnection.Close();
-            return petShopEntity;
+            return productEntity;
         }
         public IEnumerable<UserModel> GetUsers()
         {
