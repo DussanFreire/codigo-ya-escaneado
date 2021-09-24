@@ -60,7 +60,6 @@ namespace BackEndAlbergue.Controllers
                 {
                     return BadRequest(noticeModel);
                 }
-                var url = HttpContext.Request.Host;
                 return Ok(_noticeService.CreateNotice(noticeModel));
             }
             catch (Exception ex)
