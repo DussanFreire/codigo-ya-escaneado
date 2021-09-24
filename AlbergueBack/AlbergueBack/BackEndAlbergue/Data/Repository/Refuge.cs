@@ -300,8 +300,6 @@ namespace BackEndAlbergue.Data.Repository
 
                     MySqlConnection databaseConnectionUpdate3 = new MySqlConnection(connectionString);
                     databaseConnectionUpdate3.Open();
-                    MySqlCommand comando3 = new MySqlCommand($"Update pets set next = NULL  where Id = { _lastPet.Id }", databaseConnectionUpdate3);
-                    retorno = comando3.ExecuteNonQuery();
                     databaseConnectionUpdate3.Close();
                 }
                 else
