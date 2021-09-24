@@ -16,7 +16,7 @@ namespace BackEndAlbergue.Controllers
     [Route("api/notice/")]
     public class NoticeController : ControllerBase
     {
-        private INoticeService _noticeService;
+        private readonly INoticeService _noticeService;
         private readonly IWebHostEnvironment _webHostEnvironment;
         public NoticeController(INoticeService noticeService, IWebHostEnvironment hostEnvironment)
         {
