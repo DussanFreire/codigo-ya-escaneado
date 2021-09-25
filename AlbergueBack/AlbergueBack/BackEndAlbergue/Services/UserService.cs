@@ -222,8 +222,6 @@ namespace BackEndAlbergue.Services
 
             var result = await userManager.ResetPasswordAsync(user, token, model.Password);
 
-            //var result = userManager.UpdatePasswordHash(identityUser, model.Password);
-
             if (result.Succeeded)
             {
                 return true;
