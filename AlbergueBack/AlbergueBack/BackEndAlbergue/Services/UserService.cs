@@ -15,10 +15,10 @@ namespace BackEndAlbergue.Services
 {
     public class UserService : IUserService
     {
-        private UserManager<IdentityUser> userManager;
-        private RoleManager<IdentityRole> roleManager;
-        private IConfiguration configuration;
-        private IRefuge _refugeRepository;
+        private readonly UserManager<IdentityUser> userManager;
+        private readonly RoleManager<IdentityRole> roleManager;
+        private readonly IConfiguration configuration;
+        private readonly IRefuge _refugeRepository;
         public UserService(IRefuge refugeRepository,UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
         {
             this._refugeRepository = refugeRepository;

@@ -12,8 +12,8 @@ namespace BackEndAlbergue.Services
 {
     public class ProductService : IProductService
     {
-        private IRefuge _refugeRepository;
-        private IMapper _mapper;
+        private readonly IRefuge _refugeRepository;
+        private readonly IMapper _mapper;
 
         public ProductService(IRefuge refugeRepository, IMapper _mapper)
         {

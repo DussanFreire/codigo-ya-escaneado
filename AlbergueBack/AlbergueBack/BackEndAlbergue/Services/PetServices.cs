@@ -12,8 +12,8 @@ namespace BackEndAlbergue.Services
 {
     public class PetServices : IPetServices
     {
-        private IRefuge _refugeRepository;
-        private IMapper _mapper;
+        private readonly IRefuge _refugeRepository;
+        private readonly IMapper _mapper;
 
         public PetServices(IRefuge refugeRepository, IMapper _mapper)
         {

@@ -16,13 +16,5 @@ namespace BackEndAlbergue.Data
         public DbSet<PetEntity> pets { get; set; }
         public DbSet<NoticeModel> notice { get; set; }
         public DbSet<ProductModel> petShop { get; set; }
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
-            : base(options)
-        {
-        }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-        }
     }
 }
