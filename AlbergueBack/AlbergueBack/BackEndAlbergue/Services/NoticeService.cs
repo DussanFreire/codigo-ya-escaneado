@@ -46,7 +46,7 @@ namespace BackEndAlbergue.Services
         }
         public bool DeleteNotice(int noticeId)
         {
-            var validation = GetNotice(noticeId);
+            GetNotice(noticeId);
             return _refugeRepository.DeleteNotice(noticeId);
         }
 

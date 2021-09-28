@@ -47,7 +47,7 @@ namespace BackEndAlbergue.Services
 
         public bool DeleteProduct(int itemPetShopId)
         {
-            var itemPetShopToDelete = GetProduct(itemPetShopId);
+            GetProduct(itemPetShopId);
             return _refugeRepository.DeleteProduct(itemPetShopId);
         }
         public ProductModel UpdateProduct(int PetShopItemId, ProductModel petShopModel)

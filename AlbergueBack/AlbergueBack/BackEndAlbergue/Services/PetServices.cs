@@ -114,7 +114,7 @@ namespace BackEndAlbergue.Services
 
         public bool DeletePet(int petId)
         {
-            var breedToDelete = GetPet(petId);
+            GetPet(petId);
             return _refugeRepository.DeletePet(petId);
         }
 
