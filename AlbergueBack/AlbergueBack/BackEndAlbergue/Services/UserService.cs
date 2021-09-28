@@ -158,12 +158,18 @@ namespace BackEndAlbergue.Services
             };
         }
 
-        public async Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model)
+        public Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model)
         {
             if (model == null)
             {
-                throw new NullReferenceException("model is null");
+                throw new ArgumentException(nameof(model));
             }
+
+            return RegisterUserInternalAsync(model);
+        }
+
+        public async Task<UserManagerResponse> RegisterUserInternalAsync(RegisterViewModel model)
+        {
 
             if (model.Password != model.ConfirmPassword)
                 return new UserManagerResponse
@@ -196,6 +202,7 @@ namespace BackEndAlbergue.Services
                 Errors = result.Errors.Select(e => e.Description)
             };
         }
+
         public IEnumerable<UserModel> GetUsersAsync() 
         {
             return  _refugeRepository.GetUsers();
