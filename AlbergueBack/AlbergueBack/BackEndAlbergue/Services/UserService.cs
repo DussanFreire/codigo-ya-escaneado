@@ -207,12 +207,19 @@ namespace BackEndAlbergue.Services
         {
             return  _refugeRepository.GetUsers();
         }
-        public async Task<bool> UpdateUserAsync(RegisterViewModel model)
+        public Task<bool> UpdateUserAsync(RegisterViewModel model)
         {
             if (model == null)
             {
-                throw new NullReferenceException("model is null");
+                throw new ArgumentException(nameof(model));
             }
+
+            return UpdateUserInternalAsync(model);
+
+        }
+
+        public async Task<bool> UpdateUserInternalAsync(RegisterViewModel model)
+        {
 
             if (model.Password != model.ConfirmPassword)
                 throw new NullReferenceException("Password is not the same");
