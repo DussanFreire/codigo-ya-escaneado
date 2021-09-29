@@ -218,13 +218,18 @@ namespace BackEndAlbergue.Services
 
         }
 
-        public async Task<bool> UpdateUserInternalAsync(RegisterViewModel model)
+        public Task<bool> UpdateUserInternalAsync(RegisterViewModel model)
         {
 
             if (model.Password != model.ConfirmPassword)
-                throw new NullReferenceException("Password is not the same");
+                throw new ArgumentException(nameof(model));
 
+            return UpdateUserInternalPasswordAsync(model);
 
+        }
+
+        public async Task<bool> UpdateUserInternalPasswordAsync(RegisterViewModel model)
+        {
             var identityUser = new IdentityUser
             {
                 Email = model.Email,
@@ -242,7 +247,7 @@ namespace BackEndAlbergue.Services
             }
             else
             {
-                throw new NullReferenceException("User did not create");
+                throw new ArgumentException(nameof(model));
             }
         }
     }
